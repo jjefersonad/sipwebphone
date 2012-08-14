@@ -1,6 +1,10 @@
 sipwebphone
 ===========
 
+Programadores envolvidos:
+Jeferson: jjefersonad@gmail.com
+Roque Marcelo: roque.santoro@gmail.com
+
 Sip Webphone é um plugin jquery que funciona em conjuto com um applet, que teve seu desenvolvimento baseado no projeto de código aberto "Peers Java SIP Softphone"
 Link para acesso é http://peers.sourceforge.net/
 
