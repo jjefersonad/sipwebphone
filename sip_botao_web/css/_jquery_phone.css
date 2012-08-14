@@ -1,0 +1,204 @@
+/* Estilo do webphone */
+div.phone {
+	bottom: 0;
+    font-family: Arial;
+    height: 260px;
+	margin-right: 20px;
+    position: fixed;
+    right: 0;
+    width: 200px;
+}
+
+div.hidden_phone {
+	background: url(../imagens/teste/teclado_bg.png);
+	bottom: 0;
+	background-color: #fff;
+	display: none;
+    font-family: Arial;
+    height: 25px;
+	margin-right: 20px;
+    position: fixed;
+    right: 0;
+    width: 200px;
+}
+
+.maximizar {
+	background: url(../imagens/maximizar-04.png);
+	cursor: pointer;
+	float: right;
+	height: 10px;
+	margin-right: 5px;
+	width: 10px;
+}
+
+.errovisor, .msgvisor {
+	font-family: arial;
+	font-size: 16px;
+	margin: 2px;
+	text-align: center;
+}
+
+.errovisor {
+	color: red !important;
+}
+
+.msgvisor {
+	color: #34414E;
+}
+
+#container_applet {
+	width: 0;
+	height: 0;
+}
+
+#webphone_container {
+	background: url(../imagens/teste/teclado_bg.png);
+	width: 200px;
+	height: 260px;
+	border: 1px solid #ccc;
+}
+
+#visor_container {
+	margin-bottom: 5px;
+}
+
+#visor {
+	width: 174px;
+	height: 19px;
+}
+
+#status_container {
+	width: 179px;
+	height: 20px;
+	padding-top: 13px;
+	position: relative;
+	margin-bottom: 3px;
+}
+
+#img_status, #texto_status {
+	float: left;
+	height: 10px;
+	bottom: 0;
+}
+
+#img_status {
+	background-repeat: no-repeat;
+    padding-bottom: 3px;
+    position: absolute;
+    width: 10px;
+}
+
+#texto_status {
+	font-size: 13px;
+    padding-left: 15px;
+    padding-top: 5px;
+    position: relative;
+    width: 169px;
+}
+
+#teclas {
+	margin-left: 10px;
+	padding-top: 2px;
+}
+
+div.botao {
+	background: url(../imagens/tecla_on.png);
+	width: 60px;
+	height: 40px;
+	text-align: center;
+	float: left;
+	cursor: pointer;
+    font-size: 25px;
+}
+
+div.botao:hover, .botao_hover {
+	background: url(../imagens/tecla_over.png) !important;
+}
+
+#chamar, #encerrar {
+	height: 25px;
+	float: left;
+	text-align: center;
+	font-size: 12px;
+}
+
+#chamar {
+	width: 120px;
+}
+
+.chamar {
+	background: url(../imagens/teste/teclado_chamar.png);
+}
+
+.chamar:hover, .chamar_hover {
+	background: url(../imagens/teste/teclado_chamar_press.png);
+}
+
+.chamar_disabled {
+	background: url(../imagens/teste/teclado_chamar_disable.png);
+}
+
+.chamar, .encerrar {
+	color: #fff;
+	cursor: pointer;
+}
+
+#encerrar {
+	width: 60px;
+}
+
+.encerrar {
+	background: url(../imagens/teste/teclado_encerrar.png);
+}
+
+.encerrar:hover, .encerrar_hover {
+	background: url(../imagens/teste/teclado_encerrar_press.png);
+}
+
+.encerrar_disabled {
+	background: url(../imagens/teste/teclado_encerrar_disable.png);
+}
+
+#fechar, #minimizar {
+	float: right;
+	margin-right: 2px;
+	width: 10px;
+}
+
+#fechar {
+	background: url(../imagens/teste/teclado_fechar.png);
+	height: 10px;
+}
+
+#minimizar {
+	background: url(../imagens/teste/teclado_minimizar.png);
+	cursor: pointer;
+	height: 3px;
+}
+
+.status_disponivel {
+	background: url(../imagens/teste/status_disponivel.png);
+}
+
+.status_chamando {
+	background: url(../imagens/teste/status_discando.png);
+}
+
+.status_ocupado {
+	background: url(../imagens/teste/status_ocupado.png);
+}
+
+.status_nao_registrado {
+	background: url(../imagens/teste/status_invisivel.png);
+}
+
+.status_em_ligacao {
+	background: url(../imagens/teste/ampulheta.png);
+}
+
+.box-shadow {
+	-moz-box-shadow: 10px 10px 10px #000; /* Firefox */
+	-webkit-box-shadow: 10px 10px 10px #000; /* Safari, Chrome */
+	box-shadow: 10px 10px 10px #000; /* CSS3 */
+	behavior: url(ie-css3.htc);
+}

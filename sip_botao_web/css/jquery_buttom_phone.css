@@ -1,0 +1,27 @@
+/* Estilo do webphone */
+.status_disponivel {
+	background: url(../imagens/teste/status_disponivel.png);
+}
+
+.status_chamando {
+	background: url(../imagens/teste/status_discando.png);
+}
+
+.status_ocupado {
+	background: url(../imagens/teste/status_ocupado.png);
+}
+
+.status_nao_registrado {
+	background: url(../imagens/teste/status_invisivel.png);
+}
+
+.status_em_ligacao {
+	background: url(../imagens/teste/ampulheta.png);
+}
+.status_em_ligacao, .status_nao_registrado,
+.status_ocupado, .status_chamando, .status_disponivel{
+	float: left;
+    height: 10px;
+    margin: 6px;
+    width: 10px;
+}
