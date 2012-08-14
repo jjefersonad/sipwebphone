@@ -10,3 +10,23 @@ Foi pensado como um plugin jquery então para ser adicionado na página web é n
 <script type="text/javascript" src="js/jquery_buttom_phone.js"></script>
 
 O css fica a critério do desenvolvedor do projeto.
+
+
+
+Script para iniciar o applet
+
+<script type="text/javascript">
+	$(function(){
+		//phone é o id da div onde será iniciado o applet
+		$("#phone").webphone({
+		   userPart: "usuarioSip",
+		   password: "senhaUsuarioSip",
+		   dominio: "ip_do_servidor_asterisk",
+		   destino: ""(Ramal ou número de destino para o qual irá destinar a ligação)
+	   });
+	});
+</script>
+
+Div onde irá iniciar o applet
+<div class="phone box-shadow"></div>
+
